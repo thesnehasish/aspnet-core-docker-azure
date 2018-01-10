@@ -1,0 +1,10 @@
+version: '3'
+
+services:
+  aspnet-core-docker-azure:
+    image: aspnet-core-docker-azure
+    build:
+      context: .
+      dockerfile: aspnet-core-docker-azure/Dockerfile
+    ports:
+      - 8080:80
