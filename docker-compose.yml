@@ -7,4 +7,4 @@ services:
       context: .
       dockerfile: aspnet-core-docker-azure/Dockerfile
     ports:
-      - 8080:80
+      - 8080:5000
